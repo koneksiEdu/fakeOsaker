@@ -14,6 +14,10 @@ body{
     background-color: rgb(61, 61, 61);
 }
 
+h1{
+    font-size: 16pt !important;
+}
+
 /* Header section */
 .banner {
     max-width: 100%;
@@ -42,7 +46,6 @@ body{
     text-align: center;
     border: solid 4px #F4BC33;
     border-radius: 24px;
-    font-size: 14pt;
     text-shadow: 4px 6px 6px #000000a4;
     letter-spacing: .2rem;
     font-family: 'Norwester';
@@ -185,12 +188,11 @@ article{
 /* Responsive stuff */
 @media only screen and (orientation: landscape) {
     .banner img {
-        width: 70%;
+        width: 80%;
         max-height: 120px;
     }
     .text-container{
-        width: 70%;
-        font-size: 14pt;
+        width: 50%;
     }
     .tg-btn{
         display: none;
